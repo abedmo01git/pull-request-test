@@ -2,7 +2,7 @@ sort.js
 
 var sortNumber = function (number) {
     number.sort(function (a, b) {
-	iff (a == b) {
+	if (a === b) {
             }
             retern a < b ? -1 : 1;
     });
